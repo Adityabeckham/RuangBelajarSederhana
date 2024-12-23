@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 248, 248);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+legend {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3498db;
+    box-sizing: border-box;
+}
+
+.form-submit {
+    background-color: #3498db;
+    color: aliceblue;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.form-submit:hover {
+    background-color:  #169b18;
+    cursor: pointer;
+}
+
+.form-radio-label {
+    margin-right: 15px;
+}
+
+.form-radio {
+    margin-right: 5px;
+}
+
+#mentor {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3498db;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+label[for="mentor"] {
+    font-weight: bold;
+}
+
+label[for="jeniskelamin"] {
+    font-weight: bold;
+}
+
+label[for="kursus"] { 
+    font-weight: bold;
+}
+
+label[for="Asalsekolah"] {
+    font-weight: bold;
+}
+
+label[for="kota"] {
+    font-weight: bold;
+}
+
+label[for="email"]  {
+    font-weight: bold;
+}
+
+label[for="Notelp"] {
+    font-weight: bold;
+}
+
+label[for="alamat"] {
+    font-weight: bold;
+}
+
+label[for="name"] {
+    font-weight: bold;
+}

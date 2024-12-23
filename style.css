@@ -1,0 +1,241 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.navigasi {
+    background-color: #34495e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navigasi ul {
+    list-style-type: none;
+}
+
+.navigasi ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigasi ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navigasi ul li a:hover {
+    background-color: #1abc9c;
+}
+
+main {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+section.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.box-samping-kiri, .box-samping-kanan {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-samping-kiri h2, .box-samping-kanan h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.box-utama {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-utama h2 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.box-utama p {
+    font-size: 18px;
+    color: #555;
+}
+
+.box-daftar {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kursus-tersedia h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.kursus-tersedia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kursus-tersedia ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.kursus-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.kursus-item {
+    width: 220px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kursus-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.kursus-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.kursus-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navigasi ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section.content {
+        flex-direction: column;
+    }
+
+    .kursus-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kursus-item {
+        width: 90%;
+    }
+}
+.kursus-item a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1abc9c; 
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.kursus-item a:hover {
+    color: #fff;
+    background-color: #1abc9c; 
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.kursus-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.kursus-list {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1abc9c; 
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.kursus-list a:hover {
+    color: #fff;
+    background-color: #1abc9c; 
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="from.css">
+</head>
+<body>
+    <form id="form-id-pendaftaran">
+        <fieldset>
+            <h1>Form Pendaftaran </h1>
+            <legend>Informasi Pribadi</legend>
+    
+            <label for="name">Nama Lengkap</label><br/>
+            <input type="text" id="nama" required class="form-input"><br/>
+    
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" required class="form-input"><br/>
+    
+            <label for="Notelp">No Hp</label><br/>
+            <input type="number" id="Notelp" required class="form-input"><br/>
+    
+            <label for="alamat">Alamat</label><br/>
+            <input type="text" id="alamat" required class="form-input"><br/>
+
+            <div class="form-radio">
+                <label for="jeniskelamin">Jenis Kelamin</label><br/>
+                <input type="radio" id="pria" name="jeniskelamin" value="Pria" required class="form-input">
+                <label for="pria">Pria</label><br/>
+                <input type="radio" id="wanita" name="jeniskelamin" value="Wanita" required class="form-input">
+                <label for="wanita">Wanita</label>
+            </div><br/>
+    
+            <label for="kota">Kota</label><br/>
+            <input type="text" id="kota" required class="form-input"><br/>
+    
+            <label for="Asalsekolah">Asal Sekolah/Perguruan</label><br/>
+            <input type="text" id="Asalsekolah" required class="form-input"><br/>
+            
+            <label for="kursus">Pilih Kursus</label><br/>
+            <select id="kursus" required class="form-input">
+                <option value="">Pilih Kursus</option>
+                <option value="web-developer">Web Developer</option>
+                <option value="data-analyst">Data Analyst</option>
+                <option value="machine-learning">Machine Learning</option>
+                <option value="cyber-security">Cyber Security</option>
+            </select><br/>
+    
+            <label for="mentor">Pilih Mentor</label><br/>
+            <select id="mentor" required class="form-input">
+                <option value="">Pilih Mentor</option>
+                <option value="andi-nugraha" data-course="web-developer">Andi Nugraha (Web Developer)</option>
+                <option value="surya-magnum" data-course="data-analyst">Surya Magnum (Data Analyst)</option>
+                <option value="ahmad-muhajidi" data-course="machine-learning">Ahmad Muhajidi (Machine Learning)</option>
+                <option value="azis-pelita-jaya" data-course="cyber-security">Azis Pelita Jaya (Cyber Security)</option>
+            </select><br/>
+    
+            <input type="submit" value="Daftar" class="form-submit">
+        </fieldset>
+    </form>
+</body>
+</html>
